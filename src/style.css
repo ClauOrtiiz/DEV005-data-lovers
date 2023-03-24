@@ -25,7 +25,7 @@ section {
 
 h2 {
   color: white;
-  margin-left: 34px;
+  margin-left: 67px;
 }
 
 #header-img {
@@ -53,6 +53,19 @@ h2 {
   background-color: #faba13;
 }
 
+.nav-list {
+  display: flex;
+  list-style-type: none;
+}
+
+#open {
+  display: none;
+}
+
+#close {
+  display: none;
+}
+
 .header-menu {
   position: fixed;
   text-decoration: none;
@@ -62,11 +75,6 @@ h2 {
 
 .header-menu:hover {
   color: #faba13;
-}
-
-
-.btn-buscar:hover {
-  background-color: #faba13;
 }
 
 .btn-filtrar {
@@ -214,38 +222,102 @@ h2 {
 }
 
 #books {
-  margin-left: 34px;
+  margin-left: 184px;
   margin-top: 15px;
   font-size: 20px;
+  color: white;
 }
 
 #spells {
-  margin-left: 182px;
+  margin-left: 476px;
   margin-top: 15px;
   font-size: 20px;
+  color: white;
 }
 
 #potions {
-  margin-left: 344px;
+  margin-left: 1211px;
   margin-top: 15px;
   font-size: 20px;
+  color: white;
 }
 
 #funfacts {
-  margin-left: 542px;
+  margin-left: 1501px;
   margin-top: 15px;
   font-size: 20px;
-}
-
-#study-house {
-  margin-left: 1193px;
-  margin-top: 15px;
-  font-size: 20px;
+  color: white;
 }
 
 #temp-charcters {
   position: relative;
   background-image: url(./img/fondo1.png);
+}
+
+.cardsPotions {
+  width: 260px;
+  height: 600px;
+  text-align: center;
+  background-color: #a4a4a4;
+  margin: 40px 56px;
+  display: inline-grid;
+  justify-content: center;
+  font-size: 18px;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.cardsSpells {
+  width: 294px;
+  height: 479px;
+  background-color: #a4a4a4;
+  margin: 40px 39px;
+  display: inline-grid;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+#spellsBtnOrdenar {
+  margin-top: 0px;
+  margin-left: 1561px;
+  height: 37px;
+  width: 277px;
+  border: white;
+  font-size: 15px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #272727;
+  font-weight: bold;
+  display: flex;
+  padding: 0px 13px;
+  justify-content: center;
+}
+
+.imgSpell {
+  width: 250px;
+  margin-top: -6px;
+}
+
+#potionsBtnOrdenar {
+  margin-top: 0px;
+  margin-left: 1556px;
+  height: 37px;
+  width: 264px;
+  border: white;
+  font-size: 15px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #272727;
+  font-weight: bold;
+  display: flex;
+  padding: 0px 13px;
+  justify-content: center;
+}
+
+.potionsImg {
+  margin-top: -3px;
+  height: 200px;
 }
 
 @media screen and (min-width: 1366px) and (max-width: 1919px) {
@@ -299,6 +371,13 @@ h2 {
     font-size: 18px;
   }
 
+  .open {
+    display: none;
+  }
+
+  .open {
+    display: none;
+  }
 
   main {
     background-image: url(img/fondo1.png);
@@ -386,7 +465,7 @@ h2 {
     height: 367px;
     text-align: center;
     background-color: #a4a4a4;
-    margin: 61px  38px;
+    margin: 61px 38px;
     display: inline-grid;
     justify-content: center;
     font-size: 15px;
@@ -407,7 +486,7 @@ h2 {
     box-shadow: 5px 5px 5px #272727;
     font-weight: bold;
     margin-top: 34px;
-    margin-left: 390px
+    margin-left: 390px;
   }
 
   #calc:hover {
@@ -419,7 +498,7 @@ h2 {
     height: 367px;
     text-align: center;
     background-color: #a4a4a4;
-    margin: 61px  380px;
+    margin: 61px 380px;
     display: inline-grid;
     justify-content: center;
     font-size: 19px;
@@ -488,7 +567,6 @@ h2 {
   }
 }
 
-
 @media screen and (min-width: 390px) and (max-width: 1365px) {
   #header-img {
     position: fixed;
@@ -500,15 +578,65 @@ h2 {
   }
 
   #imgPrincipal {
-    margin-top: 32px;
+    margin-top: 30px;
     object-fit: cover;
     width: 390px;
     height: 169px;
   }
 
+  #books {
+    display: flexbox;
+    margin-left: -348px;
+    margin-top: 4px;
+    font-size: 18px;
+  }
+
+  #spells {
+    display: flex;
+    margin-left: -349px;
+    margin-top: 40px;
+    font-size: 18px;
+  }
+
+  #potions {
+    display: flex;
+    margin-left: -349px;
+    margin-top: 76px;
+    font-size: 18px;
+  }
+
+  #funfacts {
+    margin-left: -349px;
+    margin-top: 111px;
+    font-size: 18px;
+    display: flex;
+  }
+
+  #open {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    border: 0;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-left: 340px;
+  }
+
+  #close {
+    border: 0;
+    display: block;
+    border: 0;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+  }
+
   .btn-filtrar {
     margin-top: 0px;
-    margin-left: 937px;
+    margin-left: 18px;
     height: 30px;
     width: 161px;
     border: none;
@@ -524,7 +652,7 @@ h2 {
 
   .btn-ordenar {
     margin-top: -30px;
-    margin-left: 1141px;
+    margin-left: 206px;
     height: 30px;
     width: 161px;
     border: white;
@@ -537,21 +665,41 @@ h2 {
     padding: 2px;
   }
 
+  #sections {
+    display: none;
+    background-color: #5a5c5e;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    padding: 20px;
+    align-items: end;
+    flex-direction: column;
+    margin-top: 0px;
+    font-size: 12px;
+  }
+
+  a {
+    flex-direction: column;
+    align-items: end;
+  }
+
   h2 {
     color: white;
-    margin-left: 108px;
-    margin-top: 28px;
+    margin-left: 120px;
+    margin-top: 25px;
   }
 
   main {
     background-image: url(img/fondo390.png);
-    margin-top: 89px;
-    padding-top: 10px;
+    margin-top: -4px;
+    padding-top: 32px;
     width: 390px;
   }
 
-  .imgCharacter {
-    height: 129px;
+  .imgHouse {
+    height: 130px;
+    width: 140px;
+    border-radius: 10px 10px 0px 0px;
   }
 
   .cards {
@@ -560,7 +708,7 @@ h2 {
     background-color: #a4a4a4;
     border-radius: 20px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 9px;
     margin: 16px 18px;
     display: inline-grid;
     justify-content: center;
@@ -570,4 +718,147 @@ h2 {
   .btn-filtrar-element {
     font-size: 12px;
   }
+
+  #temp-characters {
+    position: relative;
+    padding-top: 13px;
+  }
+
+  .covercards {
+    height: 380px;
+    width: 245px;
+    text-align: center;
+    background-color: #a4a4a4;
+    margin: 21px 73px;
+    display: inline-grid;
+    justify-content: center;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  .bookCover {
+    height: 256px;
+    margin-left: 26px;
+    margin-top: 26px;
+  }
+
+  #spellsBtnOrdenar {
+    margin-top: 0px;
+    margin-left: 248px;
+    height: 26px;
+    width: 118px;
+    border: white;
+    font-size: 12px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #272727;
+    font-weight: bold;
+    display: flex;
+    padding: 0px 13px;
+    justify-content: center;
+  }
+
+  .cardsSpells {
+    width: 156px;
+    height: 308px;
+    background-color: #a4a4a4;
+    margin: 15px 18px;
+    display: inline-grid;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 25px;
+  }
+
+  .imgSpell {
+    width: 133px;
+    margin-top: -6px;
+  }
+
+  .cardsPotions {
+    width: 159px;
+    height: 326px;
+    text-align: center;
+    background-color: #a4a4a4;
+    margin: 20px 16px;
+    display: inline-grid;
+    justify-content: center;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 25px;
+  }
+
+  .potionsImg {
+    margin-top: -3px;
+    height: 123px;
+  }
+
+  #potionsBtnOrdenar {
+    margin-top: 0px;
+    margin-left: 248px;
+    height: 26px;
+    width: 118px;
+    border: white;
+    font-size: 12px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #272727;
+    font-weight: bold;
+    display: flex;
+    padding: 0px 13px;
+    justify-content: center;
+  }
+
+  #calc {
+    margin-top: 26px;
+    margin-bottom: -11px;
+    margin-left: 40px;
+    height: 40px;
+    width: 313px;
+    border: white;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #272727;
+    font-weight: bold;
+}
+
+.factscards {
+  width: 292px;
+  height: 319px;
+  text-align: center;
+  background-color: #a4a4a4;
+  margin: 18px 47px;
+  display: inline-grid;
+  justify-content: center;
+  font-size: 12px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.imgFact {
+  height: 138px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+#funFactnswer {
+  width: 292px;
+  height: 319px;
+  text-align: center;
+  background-color: #a4a4a4;
+  margin: 18px 47px;
+  display: inline-grid;
+  justify-content: center;
+  font-size: 12px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.imgFact1 {
+  margin: 40px auto;
+  display: block;
+  border-radius: 10px;
+  height: 128px;
+}
 }
