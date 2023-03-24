@@ -173,6 +173,7 @@ imgHeader.addEventListener("click", function (p) {
   contenidoPrincipal.style.marginTop = "269px";
   sectionTitle.textContent = "CHARACTERS";
   sectionTitle.style.marginTop = "4px";
+  calculatedFunfact.style.display = "none";
 });
 
 
