@@ -64,24 +64,26 @@ Personas de 18 a 40 años de edad, con conocimientos de busqueda por internet,
 fan de las sagas de Harry Potter y con deseo de ingrementar sus conocimiento sobre la saga. 
 
 
-  * HU 1. Yo como fan de Harry Potter quiero ver a todos personajes para tener la información de ellos.
-  * HU 2. Yo como fan deseo filtrar los personajes por especies para reconocerlos facilmente.
-  * HU 3. Yo como fan deseo seleccionar a mis personajes por su casa de estudio para saber cuantos estudiantes eran por cada casa.
-  * HU 4. Yo como fan deseo saber cuantos libros tiene la saga de Harry Potter para comparar con mi biblioteca actual.
-  * HU 5. Yo como fan deseo saber que tipos de hechizos existen para utilizarlos en algún juego.
-  * HU 6. Yo como fan deseo saber que tipo de pociones existen para incrementar mis conocimientos en los personajes.
-  * HU 7. Yo como fan deseo saber los datos curiosos de la saga de Harry Potter para tener más datos que otros Harry Lovers.
+  * HU 1. Yo como fan de Harry Potter quiero ver a todos personajes para tener la información de ellos
+  * HU 2. Yo como fan deseo filtrar los personajes por sus casas de estudio para identificarlos mejor.
+  * HU 3. Yo como fan deseo ver los  libros de la saga de Harry Potter para comparar con mi biblioteca actual.
+  * HU 4. Yo como fan deseo saber que tipos de hechizos existen para utilizarlos en algún juego.
+  * HU 5. Yo como fan deseo saber que tipo de pociones existen para incrementar mis conocimientos en los personajes.
+  * HU 6. Yo como fan deseo saber los datos curiosos de la saga de Harry Potter para tener más datos que otros Harry Lovers.
 
 ## 4. Proceso de diseño
 
 El proceso de creación de la página web se guió a traves de las historias de usuarios creadas, 
 de una persperctiva que nuestro usuario pueda navegar con facilidad. 
 
-En la siguiente imagen, se visualiza el prototipo de baja fidelidad, visiones iniciales
-de nuestro producto. 
+En la siguiente imagen, se visualiza el proceso de planificación y ejecución de tareas en Trello.com
+![Planificación en Trello.com](./src/img/trello.jpg)
+
+En la siguiente imagen, se visualiza el [prototipo de baja fidelidad](https://www.figma.com/file/xAmXa6uLlzfbFIgLc4WjNv/Harry-Potter?node-id=0-1&t=MVi7BS3WowSIUcz9-0), visiones iniciales
+de la página web. 
 ![Prototipo en baja fidelidad](./src/img/Prototipo%20en%20baja%20fidelidad.png)
 
-Y esta imagen, muestra el prototipo de alta fidelidad, semejandose a la vista real que se logro crear. 
+Y en esta imagen, muestra el [prototipo de alta fidelidad](https://www.figma.com/file/xAmXa6uLlzfbFIgLc4WjNv/Harry-Potter?node-id=0-1&t=MVi7BS3WowSIUcz9-0), semejandose a la vista real que se logro crear. 
 ![Prototipo en alta fidelidad](./src/img/ProtoAltaFidelidad.png)
 
 
