@@ -334,9 +334,14 @@ h2 {
     margin-left: -1350px;
   }
 
+  h2 {
+    color: white;
+    margin-left: 38px;
+  }
+  
   nav {
     position: relative;
-    height: 60px;
+    height: 56px;
     width: 100%;
     margin-top: -437px;
   }
@@ -513,30 +518,22 @@ h2 {
     height: 230px;
   }
 
-  .cardsPotions {
-    width: 211px;
-    height: 454px;
-    text-align: center;
-    background-color: #a4a4a4;
-    margin: 40px 27px;
-    display: inline-grid;
-    justify-content: center;
-    font-size: 13px;
-    border-radius: 20px;
-    padding: 15px;
-  }
+  .imgSpell {
+    width: 162px;
+    margin-top: 9px;
+}
 
-  .cardsSpells {
-    width: 211px;
-    height: 146px;
-    background-color: #a4a4a4;
-    margin: 40px 27px;
-    display: inline-grid;
-    justify-content: center;
-    font-size: 13px;
-    border-radius: 20px;
-    padding: 15px;
-  }
+.cardsSpells {
+  width: 211px;
+  height: 293px;
+  background-color: #a4a4a4;
+  margin: 40px 27px;
+  display: inline-grid;
+  justify-content: center;
+  font-size: 13px;
+  border-radius: 20px;
+  padding: 27px;
+}
 
   #spellsBtnOrdenar {
     margin-top: 0px;
@@ -552,6 +549,7 @@ h2 {
     justify-content: center;
   }
 
+
   #potionsBtnOrdenar {
     margin-top: 0px;
     margin-left: 1152px;
@@ -565,6 +563,23 @@ h2 {
     display: flex;
     justify-content: center;
   }
+.potionsImg {
+    margin-top: 0px;
+    height: 155px;
+}
+
+.cardsPotions {
+  width: 211px;
+  height: 345px;
+  text-align: center;
+  background-color: #a4a4a4;
+  margin: 40px 27px;
+  display: inline-grid;
+  justify-content: center;
+  font-size: 13px;
+  border-radius: 20px;
+  padding: 21px;
+}
 }
 
 @media screen and (min-width: 390px) and (max-width: 1365px) {

@@ -112,10 +112,12 @@ books.addEventListener("click", function (e) {
   contenidoPrincipal.style.marginTop = "0px";
   sectionTitle.textContent = "BOOKS";
   sectionTitle.style.marginTop = "100px";
-  sectionTitle.style.marginLeft = "93px";
+  sectionTitle.style.marginLeft = "23px";
   calculatedFunfact.style.display = "none";
   potionsSection.style.display = "none";
   spellsSection.style.display = "none";
+  btnOrdenarSpells.style.display = "none";
+  
   templateBooks(dataBooks);
 });
 
@@ -152,9 +154,11 @@ facts.addEventListener("click", function (e) {
   contenidoPrincipal.style.marginTop = "-10px";
   sectionTitle.textContent = "FUN FACTS";
   sectionTitle.style.marginTop = "100px";
-  sectionTitle.style.marginLeft = "93px";
+  sectionTitle.style.marginLeft = "36px";
   spellsSection.style.display = "none";
   potionsSection.style.display = "none";
+  btnOrdenarSpells.style.display = "none";
+  potionsBtnOrdenar.style.display = "none";
   templateFunFacts(dataFacts);
 });
 
@@ -164,17 +168,18 @@ imgHeader.addEventListener("click", function (p) {
   btncalcular.style.display = "none";
   booksSection.style.display = "none";
   funFactssection.style.display = "none";
-  calculatedFunfact.style.display = "none"
   charactersSection.style.display = "block";
   imagenPrincipal.style.display = "block";
   imgHeader.style.display = "block";
   buttons.style.display = "block";
-  imgHeader.style.marginTop = "-595px";
+  imgHeader.style.marginTop = "-432px";
   imgHeader.style.marginLeft = "0px";
-  navBarTexts.style.marginTop = "-595px";
-  contenidoPrincipal.style.marginTop = "435px";
+  navBarTexts.style.marginTop = "-432px";
+  contenidoPrincipal.style.marginTop = "304px";
   sectionTitle.textContent = "CHARACTERS";
   sectionTitle.style.marginTop = "4px";
+  calculatedFunfact.style.display = "none";
+  potionsBtnOrdenar.style.display = "none";
 });
 
 
@@ -215,6 +220,7 @@ potions.addEventListener("click", function (d) {
   booksSection.style.display = "none";
   potionsBtnOrdenar.style.display = "block";
   spellsSection.style.display = "none";
+  btnOrdenarSpells.style.display = "none";
   templatePotions(dataPotions);
 });
 
@@ -273,7 +279,7 @@ spells.addEventListener("click", function (d) {
   btnOrdenarSpells.style.display = "block";
   potionsBtnOrdenar.style.display = "none";
 
-  templatePotions(dataPotions);
+  templateSpells(dataSpells);
 });
 
 //SORT BY - SPELLS
